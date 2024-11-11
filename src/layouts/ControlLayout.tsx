@@ -21,7 +21,7 @@ const ControlLayout = ({ children, className }: Props) => {
       className={cn(
         className,
         isVisible && "invisible",
-        "bg-[#171717] flex flex-col px-1 rounded-3xl overflow-hidden"
+        "bg-[#171717] flex flex-col px-1 rounded-3xl overflow-hidden border-2 border-neutral-700"
       )}
     >
       <div className="flex justify-between items-center p-5 draggable">
